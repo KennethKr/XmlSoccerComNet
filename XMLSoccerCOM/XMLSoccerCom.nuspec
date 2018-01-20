@@ -3,7 +3,7 @@
     <metadata>
         <id>XMLSoccerCOM.NET</id>
         <version>0.1</version>
-        <title>Transportklasser for Taskr</title>
+        <title>.NET API for XMLSoccer.COM</title>
         <authors>Contributors @ github</authors>
         <licenseUrl>http://xmlsoccer.com</licenseUrl>
         <projectUrl>https://bitbucket.org/axiaas/taskr-server</projectUrl>
