@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+    <metadata>
+        <id>XMLSoccerCOM.NET</id>
+        <version>0.1</version>
+        <title>Transportklasser for Taskr</title>
+        <authors>Contributors @ github</authors>
+        <licenseUrl>http://xmlsoccer.com</licenseUrl>
+        <projectUrl>https://bitbucket.org/axiaas/taskr-server</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>.NET library for XMLSOCCER.COM</description>
+        <releaseNotes>First</releaseNotes>
+        <summary>First</summary>
+        <copyright>Copyright 2018</copyright>
+        <tags>xmlsoccer</tags>
+    </metadata>
+    <files>
+        <file src="bin/Release/netstandard2.0/XMLSoccerCOM.dll" target="lib\dotnet"/>
+    </files>
+</package>
