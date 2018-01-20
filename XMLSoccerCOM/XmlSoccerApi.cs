@@ -19,7 +19,11 @@ namespace XMLSoccerCOM
         {
             this.apiKey = apiKey;
 
-            BasicHttpBinding binding = new BasicHttpBinding();
+            BasicHttpBinding binding = new BasicHttpBinding
+            {
+                MaxBufferSize = int.MaxValue,
+                MaxReceivedMessageSize = int.MaxValue
+            };
 
             EndpointAddress address =
                 new EndpointAddress(apiUrl);
